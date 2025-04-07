@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Você, Dudinha 💖</title>
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 30px;
+            color: #8e44ad;
+        }
+        h1 {
+            font-size: 2.8em;
+            color: #ec407a;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .heart {
+            font-size: 3em;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        .image-container {
+            margin: 30px auto;
+        }
+        .image-container img {
+            width: 90%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        audio {
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #ec407a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .button:hover {
+            background-color: #d81b60;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            .heart {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Para Você, Dudinha 💖</h1>
+    <p>Esse cantinho é só seu. Um espacinho na internet feito com todo meu carinho só pra te lembrar o quanto eu te amo!</p>
+    <div class="heart">❤️</div>
+
+    <div class="image-container">
+        <img src="/mnt/data/image.png" alt="Nós dois em desenho fofo">
+    </div>
+
+    <div class="image-container">
+        <img src="/mnt/data/556ba04b-cba1-473f-bb9c-b0412edea2ef.jpg" alt="Foto da Dudinha linda">
+    </div>
+
+    <audio controls autoplay loop>
+        <source src="https://dl.sndup.net/bmdj/Hey%20Hey%20Hey%20Lover.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <p>Te amo mais que ontem, menos que amanhã! 🌸</p>
+
+    <button class="button" onclick="mostrarMensagem()">Clique aqui para uma surpresa!</button>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Você é a melhor coisa que aconteceu na minha vida! Te amo para sempre! 💖");
+        }
+    </script>
+</body>
+</html>
